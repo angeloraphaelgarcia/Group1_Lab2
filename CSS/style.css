@@ -1,0 +1,51 @@
+body{
+    font-family: Comic Sans MS;
+}
+#holder{
+    width: 800px;
+    margin: auto;
+}
+#headerContainer{
+    background-color: #eeefee;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+    border: 1px solid;
+}
+.eventType{
+   margin-left: 75px;
+   width: 160px;
+}
+.eventTitle{
+    margin-left: 75px;
+    width: 50%;
+}
+.eventDates{
+    margin-left: 67px;
+    margin-right: 10px;
+}
+.eventDates2{
+    margin-left: 10px;
+}
+.postingDate{
+    margin-left: 64px;
+}
+input, .eventType{
+    margin-bottom: 15px;
+}
+#buttons{
+    text-align: center;
+}
+#save, #cancel{
+    width: 90px;
+    height: 25px;
+}
