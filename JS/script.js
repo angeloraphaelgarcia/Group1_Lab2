@@ -42,11 +42,6 @@ function saveForm(){
     var date2Day = parseInt(date2Split[2]);
     var eventDate2String = date2Split[0]+"-"+date2Month+"-"+date2Day;
 
-    var postDateSplit = postingDate.split("-");
-    var postMonth = parseInt(postDateSplit[1]);
-    var postDay = parseInt(postDateSplit[2]);
-    var postingDateString = postDateSplit[0]+"-"+postMonth+"-"+postDay;
-
     if(eventType === "default"){
         alert("Please select Event Type.")
     }else if(eventTitle === ""){
@@ -55,7 +50,7 @@ function saveForm(){
         alert("Please select a Start date later than today.")
     }else if(eventDate2String == currentDate){
         alert("Please select an End date later than today.")
-    }else if(postingDateString == eventDate1String || postingDateString == eventDate2String){
+    }else if(postingDate == eventDates || postingDate == eventDates2){
         alert("Please select an earlier Posting Date.")
     }else{
         alert("EVENT HAS BEEN CREATED!")
